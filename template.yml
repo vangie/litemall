@@ -30,10 +30,11 @@ Resources:
               - POST
               - GET
   # todo: 替换为自己的域名
-  litemall.mofangdegisn.cn:
+  Domain:
     Type: "Aliyun::Serverless::CustomDomain"
     Properties:
       Protocol: HTTP
+      DomainName: Auto
       RouteConfig:
         routes:
           /*:

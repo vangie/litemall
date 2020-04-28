@@ -10,9 +10,7 @@ BASE_API=$BASE_API/admin cnpm run build:prod
 cd ../litemall-vue
 VUE_APP_BASE_API=$BASE_API cnpm run build:prod
 
-cd ../litemall-all
-mvn install && mvn clean package
-
 cd ..
+mvn install && mvn clean package
 
 fun deploy
