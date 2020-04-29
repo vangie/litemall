@@ -16,11 +16,11 @@ Resources:
         InstanceConcurrency: 30
         EnvironmentVariables:
           # todo: 替换成自己的 mysql 地址
-          SPRING_DATASOURCE_DRUID_URL: jdbc:mysql://localhost:3306/litemall?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false
+          SPRING_DATASOURCE_DRUID_URL: jdbc:mysql://120.26.46.183:3306/litemall?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false
           # todo: 替换成自己的 mysql 的 username
           SPRING_DATASOURCE_DRUID_USERNAME: root
           # todo: 替换成自己的 mysql 的 password
-          SPRING_DATASOURCE_DRUID_PASSWORD: password
+          SPRING_DATASOURCE_DRUID_PASSWORD: 123456
       Events:
         httpTrigger:
           Type: HTTP

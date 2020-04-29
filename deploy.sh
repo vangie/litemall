@@ -13,4 +13,4 @@ VUE_APP_BASE_API=$BASE_API cnpm run build:prod
 cd ..
 mvn install && mvn clean package
 
-fun deploy
+fun deploy -y
